@@ -1,0 +1,192 @@
+/*  
+	* Personal Cards 1.0 by Luca Cassani *
+	
+	You can copy, modify, publish, use, sell, 
+	or distribute this template for any purpose,
+	commercial or non-commercial, and by any means. 
+	It requires no special copyright notes nor attribution.	
+*/
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	color:#212121;
+	background-color:#EEEEEE;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	color:#2196F3; /*Change link color */
+	text-decoration:none;
+}
+a:hover{
+	color:#64B5F6; /*Change link color (on mouse over)*/
+}
+#blue_bg{
+	z-index:-1;
+	position:fixed;
+	width:100%;
+	height:25%;
+	top:0;
+	background-color:#2196F3; /* Change top background color */
+}
+.card{
+	width:550px;
+	margin:0 auto;
+	color:#212121;
+	background-color:#fff;
+	border-radius: 3px;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	overflow:auto;
+}
+#quick_card{
+	padding:25px;
+	margin-top:10vh;
+	text-align:center;
+}
+#quick_card #photo{
+	height:80px;
+	width:80px;
+	border-radius:99px;
+}
+#quick_card #name{
+	font-weight:normal;
+	margin-top:20px;
+	font-size:19px;
+	color:#212121;
+}
+#quick_card #description{
+	font-weight:normal;
+	margin-top:15px;
+	font-size:15px;
+	color:#616161;
+}
+#about_card{
+	position:relative;
+	padding:15px 32px 8px 32px;
+	margin-top:22px;
+}
+#about_card>.tab{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#about_card>.tab>.title{
+	font-size:16px;
+	color:#2196F3; /*Change title and title icon color (About Card)*/
+}
+.title i{
+	position:relative;
+	left:-10px;
+}
+#about_card>.tab>.content{
+	padding:5px 20px 5px 20px;
+	position:relative;
+}
+#about_card .element{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+#about_card .element .name{
+	color:#212121;
+	font-size:15px;
+	margin-bottom:3px;
+}
+#about_card .element .info{
+	color:#616161;
+	font-size:14px;
+}
+hr{
+	width:60%;
+	color: #E0E0E0;
+	background-color: #E0E0E0;
+	height:1px;
+	border:0;
+}
+#contact_card{
+	position:relative;
+	padding:15px 30px 15px 30px;
+	margin-top:22px;
+	margin-bottom:40px;
+}
+#contact_card>.tab{
+	margin-top:3px;
+	margin-bottom:8px;
+}
+#contact_card>.tab>.title{
+	font-size:16px;
+	color:#2196F3; /*Change title and title icon color (Contact Card)*/
+}
+#contact_card>.tab>.content{
+	padding-top:10px;
+	text-align:center;
+}
+#contact_card>.tab>.content>.contacts{
+	margin:0 20px 0 20px;
+	display:inline-block;
+	font-size:14px;
+	color:#212121;
+}
+#contact_card a{
+	color:#616161;
+	text-decoration:none; /*Change link color (ONLY Contact Card)*/
+}
+#contact_card a:hover{
+	color:#9E9E9E; /*Change link color (on mouse over, ONLY Contact Card) */
+}
+#fab{
+	position:fixed;
+	width:60px;
+	height:60px;
+	line-height: 60px;
+	text-align:center;
+	background-color:#FFC107; /*Change FAB background color */
+	border-radius:99px;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+#fab i{
+	color:#fff;
+	font-size:22px;
+}
+#fab:hover{
+	background-color:#FFD54F; /*Change FAB background color (on mouse over) */
+}
+
+footer{
+	z-index:-1;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:center;
+	text-align:center;
+	font-size:15px;
+	color:#757575;
+	padding-bottom:10px;
+	font-weight: bold;
+}
+/* MEDIA */
+@media (min-width: 961px){
+	#fab{
+		top:calc(25% - 30px);
+		right:calc((100% - 550px)/4 - 30px);
+	}
+}
+@media (min-width: 481px) and (max-width: 960px) {
+	.card{
+		width:80%;
+	}
+	#fab{
+		bottom:2%;
+		right:2%;
+	}
+}
+@media (max-width: 480px){
+	.card{
+		width:90%;
+	}
+	#fab{
+		bottom:2%;
+		right:2%;
+	}
+}
