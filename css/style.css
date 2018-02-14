@@ -17,7 +17,7 @@ body{
 	background-color:#EEEEEE;
 	font-family: 'Open Sans', sans-serif;
 }
-a{
+a:link{
 	color:#2196F3; /*Change link color */
 	text-decoration:none;
 }
