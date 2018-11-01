@@ -1,2 +1,3 @@
-# About Urmil
-An about me website, created with the help of Luca Cassani's Personal Cards CSS template.
+# About Urmil Shroff
+
+A webpage about me, created with the help of Luca Cassani's Personal Cards CSS template.
