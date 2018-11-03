@@ -15,7 +15,7 @@ body{
 	padding:0;
 	color:#212121;
 	background-color:#455a64;
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 a{
 	color:#2196F3; /*Change link color */
@@ -58,6 +58,7 @@ a:hover{
 	color:#212121;
 }
 #quick_card #description{
+    font-family: 'Roboto Mono', monospace;
 	font-weight:normal;
 	margin-top:15px;
 	font-size:15px;
@@ -89,11 +90,13 @@ a:hover{
 	margin-top:5px;
 }
 #about_card .element .name{
+    font-family: 'Rubik', sans-serif;
 	color:#212121;
 	font-size:15px;
 	margin-bottom:3px;
 }
 #about_card .element .info{
+    font-family: 'Roboto Mono', monospace;
 	color:#616161;
 	font-size:14px;
 }
