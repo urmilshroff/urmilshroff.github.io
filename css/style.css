@@ -28,7 +28,7 @@ a
 	background-color:#E53935;
 }
 
-.card
+.card /*material shadow card*/
 {
 	width:550px;
 	margin:0 auto;
@@ -39,7 +39,7 @@ a
 	overflow:auto;
 }
 
-#quick_card
+#quick_card /*the card with the name and photo*/
 {
 	padding:25px;
 	margin-top:10vh;
@@ -70,7 +70,7 @@ a
 	color:#616161;
 }
 
-#about_card
+#about_card /*the card with the cool info*/
 {
 	position:relative;
 	padding:15px 32px 8px 32px;
@@ -131,7 +131,7 @@ hr
 	border:0;
 }
 
-#contact_card
+#contact_card /*the card with the contact links*/
 {
 	position:relative;
 	padding:15px 30px 15px 30px;
