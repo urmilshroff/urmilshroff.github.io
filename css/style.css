@@ -26,6 +26,8 @@ a
 	height:25%;
 	top:0;
 	background-color:#E53935;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	overflow:auto;
 }
 
 .card /*material shadow card*/
@@ -35,7 +37,7 @@ a
 	color:#212121;
 	background-color:#fff;
 	border-radius: 3px;
-	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 	overflow:auto;
 }
 
@@ -51,6 +53,8 @@ a
 	height:80px;
 	width:80px;
 	border-radius:99px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	overflow:auto;
 }
 
 #quick_card #name
@@ -178,9 +182,9 @@ hr
 	height:60px;
 	line-height: 60px;
 	text-align:center;
-	background-color:#03a9f4; /*Change FAB background color */
+	background-color:#03a9f4;
 	border-radius:99px;
-	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 #fab i
