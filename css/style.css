@@ -1,178 +1,166 @@
-*
-{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-body
-{
-	margin:0;
-	padding:0;
-	color:#212121;
-	background-color:#455a64;
+body {
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    background-color: #455a64;
     font-family: 'Roboto', sans-serif;
 }
 
-a
-{
-	color:#2196F3;
-	text-decoration:none;
+a {
+    color: #2196F3;
+    text-decoration: none;
 }
 
-#bg
-{
-	z-index:-1;
-	position:fixed;
-	width:100%;
-	height:25%;
-	top:0;
-	background-color:#d32f2f;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
-}
-
-.card /*material shadow card*/
-{
-	width:550px;
-	margin:0 auto;
-	color:#212121;
-	background-color:#fff;
-	border-radius: 3px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
-}
-
-#quick_card /*the card with the name and photo*/
-{
-	padding:25px;
-	margin-top:10vh;
-	text-align:center;
-}
-
-#quick_card #photo
-{
-	height:80px;
-	width:80px;
-	border-radius:99px;
+#bg {
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    top: 0;
+    background-color: #d32f2f;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-	overflow:auto;
+    overflow: auto;
 }
 
-#quick_card #name
-{
-	font-weight:normal;
-	margin-top:20px;
-	font-size:19px;
-	color:#212121;
+.card
+
+/*material shadow card*/
+    {
+    width: 550px;
+    margin: 0 auto;
+    color: #212121;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
 }
 
-#quick_card #description
-{
+#quick_card
+
+/*the card with the name and photo*/
+    {
+    padding: 25px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#quick_card #photo {
+    height: 80px;
+    width: 80px;
+    border-radius: 99px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+#quick_card #name {
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #212121;
+}
+
+#quick_card #description {
     font-family: 'Roboto Mono', monospace;
-	font-weight:normal;
-	margin-top:15px;
-	font-size:15px;
-	color:#616161;
+    font-weight: normal;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #616161;
 }
 
-#about_card /*the card with the cool info*/
-{
-	position:relative;
-	padding:15px 32px 8px 32px;
-	margin-top:22px;
+#about_card
+
+/*the card with the cool info*/
+    {
+    position: relative;
+    padding: 15px 32px 8px 32px;
+    margin-top: 22px;
 }
 
-#about_card>.tab
-{
-	margin-top:10px;
-	margin-bottom:10px;
+#about_card>.tab {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#about_card>.tab>.title
-{
-	font-size:16px;
-	color:#d32f2f;
+#about_card>.tab>.title {
+    font-size: 16px;
+    color: #d32f2f;
 }
 
-.title i
-{
-	position:relative;
-	left:-10px;
+.title i {
+    position: relative;
+    left: -10px;
 }
 
-#about_card>.tab>.content
-{
-	padding:5px 20px 5px 20px;
-	position:relative;
+#about_card>.tab>.content {
+    padding: 5px 20px 5px 20px;
+    position: relative;
 }
 
-#about_card .element
-{
-	margin-bottom:5px;
-	margin-top:5px;
+#about_card .element {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
-#about_card .element .name
-{
+#about_card .element .name {
     font-family: 'Rubik', sans-serif;
-	color:#212121;
-	font-size:15px;
-	margin-bottom:3px;
+    color: #212121;
+    font-size: 15px;
+    margin-bottom: 3px;
 }
 
-#about_card .element .info
-{
+#about_card .element .info {
     font-family: 'Roboto Mono', monospace;
-	color:#616161;
-	font-size:14px;
+    color: #616161;
+    font-size: 14px;
 }
 
-hr
-{
-	width:60%;
-	color: #E0E0E0;
-	background-color: #E0E0E0;
-	height:1px;
-	border:0;
+hr {
+    width: 60%;
+    color: #E0E0E0;
+    background-color: #E0E0E0;
+    height: 1px;
+    border: 0;
 }
 
-#contact_card /*the card with the contact links*/
-{
-	position:relative;
-	padding:15px 30px 15px 30px;
-	margin-top:22px;
-	margin-bottom:40px;
+#contact_card
+
+/*the card with the contact links*/
+    {
+    position: relative;
+    padding: 15px 30px 15px 30px;
+    margin-top: 22px;
+    margin-bottom: 40px;
 }
 
-#contact_card>.tab
-{
-	margin-top:3px;
-	margin-bottom:8px;
+#contact_card>.tab {
+    margin-top: 3px;
+    margin-bottom: 8px;
 }
 
-#contact_card>.tab>.title
-{
-	font-size:16px;
-	color:#d32f2f;
+#contact_card>.tab>.title {
+    font-size: 16px;
+    color: #d32f2f;
 }
 
-#contact_card>.tab>.content
-{
-	padding-top:10px;
-	text-align:center;
+#contact_card>.tab>.content {
+    padding-top: 10px;
+    text-align: center;
 }
 
-#contact_card>.tab>.content>.contacts
-{
-	margin:0 20px 0 20px;
-	display:inline-block;
-	font-size:14px;
-	color:#212121;
+#contact_card>.tab>.content>.contacts {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    font-size: 14px;
+    color: #212121;
 }
 
-#contact_card a
-{
-	color:#616161;
-	text-decoration:none;
+#contact_card a {
+    color: #616161;
+    text-decoration: none;
 }
 
 /* #fab
@@ -201,29 +189,24 @@ hr
 		right:calc((100% - 550px)/4 - 30px);
 	}
 } */
+@media (min-width: 481px) and (max-width: 960px) {
+    .card {
+        width: 80%;
+    }
 
-@media (min-width: 481px) and (max-width: 960px)
-{
-	.card
-    {
-		width:80%;
-	}
-    
-	/* #fab
+    /* #fab
     {
 		bottom:2%;
 		right:2%;
 	} */
 }
 
-@media (max-width: 480px)
-{
-	.card
-    {
-		width:90%;
-	}
-    
-	/* #fab
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+
+    /* #fab
     {
 		bottom:2%;
 		right:2%;
