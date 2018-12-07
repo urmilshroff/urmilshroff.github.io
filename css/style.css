@@ -10,11 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: #2196F3;
-    text-decoration: none;
-}
-
 #bg {
     z-index: -1;
     position: fixed;
@@ -106,7 +101,7 @@ a {
 }
 
 #about_card .element .name {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
     font-size: 15px;
     margin-bottom: 3px;
@@ -163,52 +158,14 @@ hr {
     text-decoration: none;
 }
 
-/* #fab
-{
-	position:fixed;
-	width:60px;
-	height:60px;
-	line-height: 60px;
-	text-align:center;
-	background-color:#03a9f4;
-	border-radius:99px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-}
-
-#fab i
-{
-	color:#fff;
-	font-size:22px;
-}
-
-@media (min-width: 961px)
-{
-	#fab
-    {
-		top:calc(25% - 30px);
-		right:calc((100% - 550px)/4 - 30px);
-	}
-} */
 @media (min-width: 481px) and (max-width: 960px) {
     .card {
         width: 80%;
     }
-
-    /* #fab
-    {
-		bottom:2%;
-		right:2%;
-	} */
 }
 
 @media (max-width: 480px) {
     .card {
         width: 90%;
     }
-
-    /* #fab
-    {
-		bottom:2%;
-		right:2%;
-	} */
 }
