@@ -1,8 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    color: #37474F;
     background-color: #455a64;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 hr {
@@ -29,6 +31,8 @@ hr {
 .title {
     font-size: 16px;
     color: #d32f2f;
+    position: relative;
+    left: 10px;
 }
 
 .title i {
@@ -47,14 +51,13 @@ hr {
 }
 
 .name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 3px;
 }
 
 .info {
     font-family: 'Roboto Mono', monospace;
-    color: #616161;
+    font-weight: normal;
     font-size: 14px;
 }
 
@@ -70,36 +73,35 @@ hr {
 }
 
 #title_card {
-    padding: 25px;
+    padding: 30px;
     margin-top: 10vh;
     text-align: center;
 }
 
 #title_card #photo {
-    height: 80px;
-    width: 80px;
-    border-radius: 99px;
+    height: 85px;
+    width: 85px;
+    border-radius: 100px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
 }
 
 #title_card #name {
-    font-weight: normal;
+    font-weight: 400;
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 #title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
+    font-size: 16px;
     margin-top: 15px;
-    font-size: 15px;
-    color: #616161;
 }
 
 #info_card {
     position: relative;
-    padding: 15px 32px 8px 32px;
+    padding: 15px 30px 15px 30px;
     margin-top: 22px;
 }
 
@@ -128,21 +130,14 @@ hr {
 #social_card>.tab>.content>.contacts {
     margin: 0 20px 0 20px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #social_card a {
-    color: #616161;
     text-decoration: none;
 }
 
-@media (min-width: 481px) and (max-width: 960px) {
-    .card {
-        width: 60%;
-    }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 960px) {
     .card {
         width: 75%;
     }
