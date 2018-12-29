@@ -5,6 +5,7 @@ body {
     background-color: #455a64;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    text-align: left;
 }
 
 hr {
@@ -14,8 +15,14 @@ hr {
     border: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #37474F;
+}
+
 .card {
     width: 700px;
+    padding: 15px 30px 15px 30px;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 3px;
@@ -32,7 +39,7 @@ hr {
     font-size: 16px;
     color: #d32f2f;
     position: relative;
-    left: 10px;
+    left: 20px;
 }
 
 .title i {
@@ -41,7 +48,7 @@ hr {
 }
 
 .content {
-    padding: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
     position: relative;
 }
 
@@ -58,7 +65,13 @@ hr {
 .info {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 15px;
+}
+
+.social_links {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    font-size: 16px;
 }
 
 #bg {
@@ -73,9 +86,10 @@ hr {
 }
 
 #title_card {
+    margin-top: 60px;
     padding: 30px;
-    margin-top: 10vh;
     text-align: center;
+    position: relative;
 }
 
 #title_card #photo {
@@ -89,56 +103,40 @@ hr {
 #title_card #name {
     font-weight: 400;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 #title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     font-size: 16px;
-    margin-top: 15px;
 }
 
 #info_card {
     position: relative;
-    padding: 15px 30px 15px 30px;
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 #social_card {
     position: relative;
-    padding: 15px 30px 15px 30px;
-    margin-top: 22px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
-#social_card>.tab {
-    margin-top: 3px;
-    margin-bottom: 8px;
-}
-
-#social_card>.tab>.title {
-    font-size: 16px;
-    color: #d32f2f;
-}
-
 #social_card>.tab>.content {
-    padding-top: 10px;
     text-align: center;
-}
-
-#social_card>.tab>.content>.contacts {
-    margin: 0 20px 0 20px;
-    display: inline-block;
-    font-size: 16px;
-}
-
-#social_card a {
-    text-decoration: none;
 }
 
 @media (max-width: 960px) {
     .card {
         width: 75%;
+    }
+    
+    #title_card {
+        margin-top: 40px;
+    }
+    
+    #social_card {
+        margin-bottom: 20px;
     }
 }
