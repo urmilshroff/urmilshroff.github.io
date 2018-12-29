@@ -1,13 +1,61 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     padding: 0;
-    color: #212121;
     background-color: #455a64;
     font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 100%;
+    background-color: #E0E0E0;
+    height: 1px;
+    border: 0;
+}
+
+.card {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.tab {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 16px;
+    color: #d32f2f;
+}
+
+.title i {
+    position: relative;
+    left: -10px;
+}
+
+.content {
+    padding: 5px 20px 5px 20px;
+    position: relative;
+}
+
+.element {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.info {
+    font-family: 'Roboto Mono', monospace;
+    color: #616161;
+    font-size: 14px;
 }
 
 #bg {
@@ -21,29 +69,13 @@ body {
     overflow: auto;
 }
 
-.card
-
-/*material shadow card*/
-    {
-    width: 550px;
-    margin: 0 auto;
-    color: #212121;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
-    overflow: auto;
-}
-
-#quick_card
-
-/*the card with the name and photo*/
-    {
+#title_card {
     padding: 25px;
     margin-top: 10vh;
     text-align: center;
 }
 
-#quick_card #photo {
+#title_card #photo {
     height: 80px;
     width: 80px;
     border-radius: 99px;
@@ -51,14 +83,13 @@ body {
     overflow: auto;
 }
 
-#quick_card #name {
+#title_card #name {
     font-weight: normal;
     margin-top: 20px;
     font-size: 19px;
-    color: #212121;
 }
 
-#quick_card #description {
+#title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     margin-top: 15px;
@@ -66,106 +97,53 @@ body {
     color: #616161;
 }
 
-#about_card
-
-/*the card with the cool info*/
-    {
+#info_card {
     position: relative;
     padding: 15px 32px 8px 32px;
     margin-top: 22px;
 }
 
-#about_card>.tab {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#about_card>.tab>.title {
-    font-size: 16px;
-    color: #d32f2f;
-}
-
-.title i {
-    position: relative;
-    left: -10px;
-}
-
-#about_card>.tab>.content {
-    padding: 5px 20px 5px 20px;
-    position: relative;
-}
-
-#about_card .element {
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-#about_card .element .name {
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
-    font-size: 15px;
-    margin-bottom: 3px;
-}
-
-#about_card .element .info {
-    font-family: 'Roboto Mono', monospace;
-    color: #616161;
-    font-size: 14px;
-}
-
-hr {
-    width: 60%;
-    color: #E0E0E0;
-    background-color: #E0E0E0;
-    height: 1px;
-    border: 0;
-}
-
-#contact_card
-
-/*the card with the contact links*/
-    {
+#social_card {
     position: relative;
     padding: 15px 30px 15px 30px;
     margin-top: 22px;
     margin-bottom: 40px;
 }
 
-#contact_card>.tab {
+#social_card>.tab {
     margin-top: 3px;
     margin-bottom: 8px;
 }
 
-#contact_card>.tab>.title {
+#social_card>.tab>.title {
     font-size: 16px;
     color: #d32f2f;
 }
 
-#contact_card>.tab>.content {
+#social_card>.tab>.content {
     padding-top: 10px;
     text-align: center;
 }
 
-#contact_card>.tab>.content>.contacts {
+#social_card>.tab>.content>.contacts {
     margin: 0 20px 0 20px;
     display: inline-block;
     font-size: 14px;
-    color: #212121;
 }
 
-#contact_card a {
+#social_card a {
     color: #616161;
     text-decoration: none;
 }
 
 @media (min-width: 481px) and (max-width: 960px) {
     .card {
-        width: 80%;
+        width: 60%;
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        width: 90%;
+        width: 75%;
     }
 }
