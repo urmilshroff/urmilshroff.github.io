@@ -1,0 +1,467 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html,
+body {
+    background-color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #00c853;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 20px;
+    height: 100%;
+    margin: 0px;
+    line-height: 1.5;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a {
+    color: #00c853;
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.left-padding {
+    padding-left: 10px;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    z-index: 999999;
+}
+
+#site {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.center-wrap {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.typer-wrapper {
+    margin: 0px;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.center-content {
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    max-width: 780px;
+}
+
+.highlight-link {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.highlight-link:hover {
+    -webkit-box-shadow: inset 0 -30px 0 0 #00c853;
+    box-shadow: inset 0 -30px 0 0 #00c853;
+    color: #000000;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #00c853;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #00c853;
+    text-decoration: none;
+}
+
+.bottom-right-corner a {
+    padding: 10px 12px;
+    padding-left: 0px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    body {
+        font-size: 16px;
+    }
+
+    .footer {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.footer__copyright {
+    font-size: 18px;
+    width: 250px;
+}
+
+@media screen and (max-width: 630px) {
+    .footer__copyright {
+        width: auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .footer__copyright .bottom,
+    .footer__copyright .top {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .footer__copyright .bottom,
+    .footer__copyright .top {
+        display: block;
+    }
+}
+
+.footer__copyright .emoji {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    vertical-align: text-bottom;
+}
+
+@media screen and (max-width: 630px) {
+    .footer__links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.footer__links a {
+    position: relative;
+    display: inline-block;
+    color: #00c853 !important;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    outline: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links a {
+        margin: 0 10px;
+    }
+}
+
+.footer__links a:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #00c853;
+    content: "";
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 850px) {
+    .footer__links a:after {
+        display: none;
+    }
+}
+
+.footer__links a:focus:after,
+.footer__links a:hover:after {
+    height: 2px;
+    border-radius: 3px;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.footer__links a .text {
+    font-size: 0.9rem;
+    display: inline;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 850px) {
+    .footer__links a .text {
+        display: none;
+    }
+}
+
+.footer__links img {
+    display: none;
+    width: 22px;
+}
+
+@media screen and (max-width: 850px) {
+    .footer__links img {
+        display: inline-block;
+    }
+}
+
+.featured-projects .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: -5%;
+    width: 125%;
+}
+
+@media screen and (max-width: 1280px) {
+    .featured-projects .project {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .featured-projects .project {
+        width: 105%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        width: 100%;
+        display: block;
+        margin-bottom: 70px;
+    }
+}
+
+.project.screentime {
+    margin-bottom: 70px;
+}
+
+.project:last-of-type {
+    margin-bottom: 0;
+}
+
+.project__pic {
+    max-width: 700px;
+    overflow: visible;
+    margin: 0;
+}
+
+.project__pic a {
+    display: block;
+}
+
+.project__pic.phones a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.project__pic.phones .phone {
+    margin: 0 -7%;
+}
+
+.project__pic.phones .phone:first-of-type {
+    margin-left: -5%;
+}
+
+.project__pic img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.project__caption {
+    width: 125px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .project__caption {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+}
+
+.project__name {
+    margin-bottom: 10px;
+}
+
+.project__name a {
+    font-weight: 700;
+}
+
+.project p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+.other-projects .project {
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.other-projects .project__name {
+    margin-bottom: 10px;
+}
+
+.other-projects .project p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.other-projects .project__used__item {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #00c853;
+    border: 1px solid #00c853;
+    background: 0 0;
+}
+
+.other-projects .project__used__item:first-of-type {
+    margin-left: 0;
+}
+
+.main-heading {
+    font-size: 36px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.job__time {
+    font-size: 0.9rem;
+    font-family: 'Overpass Mono', monospace;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .job__time {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #site {
+        transform: translateY(-100px);
+    }
+}
