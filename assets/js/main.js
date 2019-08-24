@@ -1,9 +1,4 @@
-$(document).ready(function () {
-
-
-
-    /* Baffle JS */
-
+$(document).ready(function() {
     setTimeout(() => {
         const text = baffle(".main-heading");
         text.set({
@@ -13,7 +8,6 @@ $(document).ready(function () {
         text.start();
         text.reveal(70000);
     }, 3200);
-
     setTimeout(() => {
         /* Typed JS */
         var typed = new Typed('#typed', {
@@ -24,7 +18,4 @@ $(document).ready(function () {
             backSpeed: 80,
         });
     }, 3200)
-
-
 });
-
