@@ -86,7 +86,10 @@ p {
 .center-content {
     display: block;
     margin: 0px auto;
-    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: left;
     max-width: 780px;
 }
@@ -130,15 +133,6 @@ ul {
     text-decoration: none;
 }
 
-.fa-envelope,
-.fa-twitter,
-.fa-instagram,
-.fa-linkedin,
-.fa-github,
-.fa-behance,
-.fa-dribbble,
-.fa-gitlab,
-.fa-folder-o,
 .bottom-right-corner a {
     padding: 10px 12px;
     padding-left: 0px;
@@ -150,40 +144,11 @@ ul {
     background-color: #000000;
 }
 
-.fa-instagram:hover {
-    color: #e4405f;
-}
-
-.fa-twitter:hover {
-    color: #55acee;
-}
-
-.fa-linkedin:hover {
-    color: #0077b5;
-}
-
-.fa-envelope:hover {
-    color: #dd4b39;
-}
-
-.fa-behance:hover {
-    color: #053eff;
-}
-
-.fa-dribbble:hover {
-    color: #ea4c89;
-}
-
-.fa-github:hover {
-    color: #6e5494;
-}
-
-.fa-gitlab:hover {
-    color: #e2432a;
-}
-
 .footer {
-    padding: 50px 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -197,24 +162,36 @@ ul {
 
 @media screen and (max-width: 1024px) {
     .footer {
-        padding: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 630px) {
+    body {
+        font-size: 16px;
+    }
+
     .footer {
         display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
     .footer {
-        padding: 50px 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 .footer__copyright {
-    font-size: 15px;
+    font-size: 18px;
     width: 250px;
 }
 
@@ -265,7 +242,7 @@ ul {
     display: inline-block;
     color: #00c853 !important;
     text-decoration: none;
-    font-size: 5px;
+    font-size: 16px;
     margin: 0 15px;
     outline: 0;
 }
