@@ -2,20 +2,21 @@ $(document).ready(function() {
     setTimeout(() => {
         const text = baffle(".main-heading");
         text.set({
-            characters: 'Afeedh Shaji',
-            speed: 95
+            characters: "Urmil Shroff",
+            speed: 100
         });
         text.start();
-        text.reveal(70000);
-    }, 3200);
+        text.reveal(100000);
+    }, 100);
+
     setTimeout(() => {
-        /* Typed JS */
         var typed = new Typed('#typed', {
-            strings: ["Developer.^1000 ", "ML/DL Enthusiast.^1000 ", "Programmer.^1000 ", "Designer.^1000 "],
-            stringsElement: null,
+            strings: ["tech enthusiast ^1000 ", "python programmer ^1000", "flutter app developer ^1000 ", "open source contributor ^1000 ", "youtube creator ^1000"],
+            shuffle: true,
             loop: true,
-            typeSpeed: 80,
-            backSpeed: 80,
+            cursorChar: '▊',
+            typeSpeed: 100,
+            backSpeed: 100,
         });
-    }, 3200)
+    }, 3000)
 });
