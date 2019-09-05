@@ -2,83 +2,175 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Urmil Shroff" />
-    <meta name="description" content="I'm Urmil Shroff - a programmer, tech enthusiast, petrolhead and music lover." />
-    <meta name="keywords" content="urmil shroff, resume, portfolio, cv, developer, computer science, computer engineering" />
-
-    <link rel="icon" href="assets/img/favicon.ico" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/fonts.css" />
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <script src='https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js'></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <script src="assets/js/main.js"></script>
-
     <title>Urmil Shroff</title>
 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <meta name="description" content="Programmer, tech enthusiast, supercar lover and music listener.">
+    <meta name="author" content="Urmil Shroff">
+
+    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico" />
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
-    <div id="site">
-        <div class="center">
-            <div class="center-wrap">
-                <div class="center-content">
+    <div id="bg"></div>
 
-                    <h1 class="main-heading">Hello! My name is Urmil.</h1>
-                    <div class="typer-wrapper">$ <span id="typed"></span></br></div><br />
+    <header>
+        <div id="title_card" class="card">
+            <div><img id="photo" src="img/photo.png"></div>
+            <h1 id="name">Urmil Shroff</h1>
+            <h2 id="description">Programmer & Tech Enthusiast</h2>
+            <a href="https://github.com/urmilshroff/urmilshroff.github.io/raw/master/Resume.pdf">
+                <h5><u>RESUME</u></h5>
+            </a>
+        </div>
+    </header>
 
-                    <p>Home: 18.9548°N, 72.7985°E<br /></p>
-
-                    <p>Education: B Tech CS at <a class=highlight-link href="https://engineering.nmims.edu/" target=_blank>NMIMS Mumbai</a>.<br /></p>
-
-                    <!-- <p>Positions: Build Lead at <a class=highlight-link href="https://nowmozilla.club/" target=_blank>NOW</a>, technical exec at <a class=highlight-link href="https://mpstme.acm.org/" target=_blank>ACM</a>.<br /></p> -->
-
-                    <p>Projects: check out my best software projects <a class=highlight-link href="./projects.html">here</a>.<br /></p>
-
-                    <p>Open Source: 1000+ contributions on <a class=highlight-link href="https://github.com/urmilshroff" target=_blank>GitHub</a>.<br /></p>
-
-                    <p>YouTube: 500K+ views & 2K subscribers on <a class=highlight-link href="https://www.youtube.com/user/urmilshroff/" target=_blank>YouTube</a>.<br /></p>
-
-                    <p>Recruiters: here is my <a class=highlight-link href="https://github.com/urmilshroff/urmilshroff.github.io/raw/master/Resume.pdf" target=_blank>Résumé</a>.
-                    </p>
-
+    <main>
+        <div id="info_card" class="card">
+            <section class="tab">
+                <div class="title"><i class="fas fa-info-circle"></i>About Me</div>
+                <div class="content">
+                    <section class="element">
+                        <div class="info">Hello! My name is Urmil, and I'm from Mumbai, India. I have a deep interest in technology, and you'll mostly find me coding on my laptop or tweaking my phone. I'm also very passionate about cars and love
+                            listening to music.</div>
+                    </section>
                 </div>
-            </div>
+            </section>
         </div>
 
-        <footer class="footer">
-            <div class="footer__copyright">
-                <div class="bottom">© 2019 Urmil Shroff</div>
-            </div>
-            <div class="footer__links">
-                <a href=tel:+91-9920071998 target=_blank title=phone><i class="fas fa-phone-alt"></i><span class=text> phone</span></a>
+        <div id="info_card" class="card">
+            <section class="tab">
+                <div class="title"><i class="fas fa-graduation-cap"></i>Education</div>
+                <div class="content">
+                    <section class="element">
+                        <div class="name">Cathedral & John Connon School</div>
+                        <div class="info">ICSE, 2004-2015</div>
+                    </section>
 
-                <a href=mailto:urmilshroff@gmail.com target=_blank title=email><i class="fas fa-envelope"></i><span class=text> email</span></a>
+                    <hr align="left">
 
-                <a href=https://www.linkedin.com/in/urmil-shroff-4b25a7178/ target=_blank title=linkedin><i class="fab fa-linkedin"></i><span class=text> linkedin</span></a>
+                    <section class="element">
+                        <div class="name">Mukesh Patel School Of Technology Management & Engineering</div>
+                        <div class="info">B. Tech, 2015-present</div>
+                    </section>
+                </div>
+            </section>
+        </div>
 
-                <a href=https://twitter.com/urmilshroff target=_blank title=twitter><i class="fab fa-twitter"></i><span class=text> twitter</span></a>
+        <div id="info_card" class="card">
+            <section class="tab">
+                <div class="title"><i class="fas fa-briefcase"></i>Experience</div>
+                <div class="content">
+                    <section class="element">
+                        <div class="name">OneRoof Technologies</div>
+                        <div class="info">Flutter app developer intern, May-June 2019</div>
+                    </section>
 
-                <!-- <a href=https://www.instagram.com/urmilshroff/ target=_blank title=instagram><i class="fab fa-instagram"></i><span class=text> instagram</span></a> -->
+                    <hr align="left">
+                    
+                    <section class="element">
+                        <div class="name">ACM MPSTME</div>
+                        <div class="info">Technical Executive, July 2019-present</div>
+                    </section>
 
-                <a href=https://github.com/urmilshroff target=_blank title=github><i class="fab fa-github"></i><span class=text> github</span></a>
+                    <hr align="left">
 
-                <!-- <a href=https://open.spotify.com/user/urmilshroff target=_blank title=spotify><i class="fab fa-spotify"></i><span class=text> spotify</span></a> -->
-            </div>
-        </footer>
-    </div>
+                    <section class="element">
+                        <div class="name">N.O.W. Mozilla Club</div>
+                        <div class="info">Build Lead, May 2019-present</div>
+                        <div class="info">Designer, May 2019-present</div>
+                        <div class="info">Executive, 2018-2019</div>
+                    </section>
+
+                    <hr align="left">
+
+                    <section class="element">
+                        <div class="name">Technical Committee</div>
+                        <div class="info">Executive, 2017-2018</div>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+        <div id="info_card" class="card">
+            <section class="tab">
+                <div class="title"><i class="fas fa-code"></i>Projects</div>
+                <div class="content">
+                    <section class="element">
+                        <div class="name"><a href="https://play.google.com/store/apps/details?id=tech.urmilshroff.dashboard_reborn" target="_blank">Dashboard Reborn</a></div>
+                        <div class="info">A beautiful, open source Flutter template app consisiting of three major UI components for developers to use.</div>
+                    </section>
+
+                    <hr align="left">
+
+                    <section class="element">
+                        <div class="name"><a href="https://github.com/urmilshroff/solefinder" target="_blank">SoleFinder</a></div>
+                        <div class="info">An app to detect the exact model of a shoe using Deep Learning frameworks. Available for iOS and desktops.</div>
+                    </section>
+
+                    <hr align="left">
+
+                    <section class="element">
+                        <div class="name"><a href="https://play.google.com/store/apps/details?id=tech.urmilshroff.goalkeeper" target="_blank">Goalkeeper</a></div>
+                        <div class="info">A simple and clean Android & iOS app to make you more productive.</div>
+                    </section>
+
+                    <hr align="left">
+
+                    <section class="element">
+                        <div class="name"><a href="https://nowmozilla.club/" target="_blank">Mozilla Materialized</a></div>
+                        <div class="info">Material (re)Design of the official N.O.W. Mozilla Club website.</div>
+                    </section>
+
+                    <hr align="left">
+
+                    <section class="element">
+                        <div class="name"><a href="https://github.com/urmilshroff/urmilshroff.github.io" target="_blank">This website!</a></div>
+                        <div class="info">A personal webpage about me - yes, this one!</div>
+                    </section>
+
+                    <hr align="left">
+
+                    <section class="element">
+                        <div class="name"><a href="https://github.com/urmilshroff/" target="_blank">Many, many more!</a></div>
+                        <div class="info">>$ git checkout github.com/urmilshroff</div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div id="social_card" class="card">
+            <section class="tab">
+                <div class="title"><i class="fas fa-users"></i>Connect</div>
+                <div class="content">
+                    <div class="social_links"><a href="https://twitter.com/urmilshroff" target="_blank"><i class="fab fa-twitter"></i> Twitter </a></div>
+
+                    <div class="social_links"><a href="https://www.instagram.com/urmilshroff/" target="_blank"><i class="fab fa-instagram"></i> Instagram </a></div>
+
+                    <div class="social_links"><a href="https://www.linkedin.com/in/urmil-shroff-4b25a7178/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a></div>
+
+                    <div class="social_links"><a href="https://github.com/urmilshroff/" target="_blank"><i class="fab fa-github"></i> GitHub </a></div>
+                </div>
+
+                <div class="content">
+                    <div class="social_links"><a href="https://www.reddit.com/user/urmil_shroff" target="_blank"><i class="fab fa-reddit"></i> Reddit </a></div>
+
+                    <div class="social_links"><a href="https://mewe.com/profile/5c56e36caaf6a028bee5af4f" target="_blank"><i class="fas fa-globe-americas"></i> MeWe </a></div>
+
+                    <div class="social_links"><a href="https://open.spotify.com/user/urmilshroff" target="_blank"><i class="fab fa-spotify"></i> Spotify </a></div>
+
+                    <div class="social_links"><a href="https://www.youtube.com/user/urmilshroff" target="_blank"><i class="fab fa-youtube"></i> YouTube </a></div>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 
 </html>
