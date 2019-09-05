@@ -24,7 +24,7 @@ a {
     width: 700px;
     padding: 15px 30px 15px 30px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
@@ -127,15 +127,45 @@ a {
     text-align: center;
 }
 
+#fab {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #d32f2f;
+    bottom: 5%;
+    right: 6%;
+    border-radius: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+#fab i {
+    color: #E0E0E0;
+    font-size: 24px;
+}
+
 @media (max-width: 960px) {
     .card {
         width: 75%;
     }
-    
+
     #title_card {
         margin-top: 40px;
     }
-    
+
+    #fab {
+        /* width: 50px;
+        height: 50px;
+        line-height: 55px; */
+        bottom: 3%;
+        right: 4%;
+    }
+
+    /* #fab i {
+        font-size: 22px;
+    } */
+
     #social_card {
         margin-bottom: 20px;
     }
