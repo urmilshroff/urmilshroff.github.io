@@ -1,30 +1,30 @@
 body {
     margin: 0;
     padding: 0;
-    color: #37474F;
-    background-color: #455a64;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    color: #263238;
+    background-color: #263238;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
     text-align: left;
 }
 
 hr {
     width: 100%;
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     height: 1px;
     border: 0;
 }
 
 a {
     text-decoration: none;
-    color: #37474F;
+    color: #263238;
 }
 
 .card {
     width: 700px;
     padding: 15px 30px 15px 30px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
@@ -37,7 +37,7 @@ a {
 
 .title {
     font-size: 16px;
-    color: #d32f2f;
+    color: #ff6f00;
     position: relative;
     left: 20px;
 }
@@ -65,7 +65,7 @@ a {
 .info {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .social_links {
@@ -78,9 +78,9 @@ a {
     z-index: -1;
     position: fixed;
     width: 100%;
-    height: 25%;
+    height: 30%;
     top: 0;
-    background-color: #d32f2f;
+    background-color: #ff6f00;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
 }
@@ -103,13 +103,13 @@ a {
 #title_card #name {
     font-weight: 400;
     margin-top: 20px;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 #title_card #description {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #info_card {
@@ -127,15 +127,38 @@ a {
     text-align: center;
 }
 
+#fab {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #ff6f00;
+    bottom: 5%;
+    right: 6%;
+    border-radius: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+#fab i {
+    color: #e0e0e0;
+    font-size: 23px;
+}
+
 @media (max-width: 960px) {
     .card {
         width: 75%;
     }
-    
+
     #title_card {
         margin-top: 40px;
     }
-    
+
+    #fab {
+        bottom: 3%;
+        right: 4%;
+    }
+
     #social_card {
         margin-bottom: 20px;
     }
