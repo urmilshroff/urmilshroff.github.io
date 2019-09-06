@@ -10,7 +10,7 @@ body {
 
 hr {
     width: 100%;
-    background-color: #e0e0e0;
+    background-color: #fafafa;
     height: 1px;
     border: 0;
 }
@@ -24,7 +24,7 @@ a {
     width: 700px;
     padding: 15px 30px 15px 30px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
@@ -141,7 +141,7 @@ a {
 }
 
 #fab i {
-    color: #e0e0e0;
+    color: #fafafa;
     font-size: 23px;
 }
 
