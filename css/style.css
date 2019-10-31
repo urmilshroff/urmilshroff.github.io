@@ -1,8 +1,25 @@
+html {
+    --text-color: #263238;
+    --background-color: #263238;
+    --surface-color: #fafafa;
+    --accent-color: #ff6f00;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark theme */
+    html {
+        --text-color: #ffffff;
+        --background-color: #151a1d;
+        --surface-color: #121212;
+        --accent-color: #c76113;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
-    color: #263238;
-    background-color: #263238;
+    color: var(--text-color);
+    background-color: var(--background-color);
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     text-align: left;
@@ -10,21 +27,21 @@ body {
 
 hr {
     width: 100%;
-    background-color: #fafafa;
+    background-color: var(--surface-color);
     height: 1px;
     border: 0;
 }
 
 a {
     text-decoration: none;
-    color: #263238;
+    color: var(--text-color);
 }
 
 .card {
     width: 700px;
     padding: 15px 30px 15px 30px;
     margin: 0 auto;
-    background-color: #fafafa;
+    background-color: var(--surface-color);
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
@@ -37,7 +54,7 @@ a {
 
 .title {
     font-size: 16px;
-    color: #ff6f00;
+    color: var(--accent-color);
     position: relative;
     left: 20px;
 }
@@ -80,7 +97,7 @@ a {
     width: 100%;
     height: 30%;
     top: 0;
-    background-color: #ff6f00;
+    background-color: var(--accent-color);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
 }
@@ -133,7 +150,7 @@ a {
     height: 55px;
     line-height: 60px;
     text-align: center;
-    background-color: #ff6f00;
+    background-color: var(--accent-color);
     bottom: 5%;
     right: 6%;
     border-radius: 100px;
@@ -141,7 +158,7 @@ a {
 }
 
 #fab i {
-    color: #fafafa;
+    color: var(--surface-color);
     font-size: 23px;
 }
 
