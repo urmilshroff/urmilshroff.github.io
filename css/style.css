@@ -1,17 +1,17 @@
 html {
     --text-color: #263238;
     --background-color: #263238;
-    --surface-color: #fafafa;
+    --card-color: #fafafa;
     --accent-color: #ff6f00;
 }
 
 @media (prefers-color-scheme: dark) {
     /* Dark theme */
     html {
-        --text-color: #ffffff;
-        --background-color: #151a1d;
-        --surface-color: #121212;
-        --accent-color: #c76113;
+        --text-color: #fafafa;
+        --background-color: #263238;
+        --card-color: #263238;
+        --accent-color: #00e676;
     }
 }
 
@@ -27,7 +27,7 @@ body {
 
 hr {
     width: 100%;
-    background-color: var(--surface-color);
+    background-color: var(--card-color);
     height: 1px;
     border: 0;
 }
@@ -41,7 +41,7 @@ a {
     width: 700px;
     padding: 15px 30px 15px 30px;
     margin: 0 auto;
-    background-color: var(--surface-color);
+    background-color: var(--card-color);
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
@@ -158,7 +158,7 @@ a {
 }
 
 #fab i {
-    color: var(--surface-color);
+    color: var(--card-color);
     font-size: 23px;
 }
 
