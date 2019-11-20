@@ -1,4 +1,4 @@
-<p align="center"><img height="150px" width="150px" src="./img/urmil.jpg" alt="Urmil Shroff"/></p>
+<p align="center"><img height="175px" width="175px" src="./img/urmil.jpg" alt="Urmil Shroff"/></p>
 
 # About Me
 
