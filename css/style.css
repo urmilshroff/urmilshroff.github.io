@@ -6,6 +6,7 @@ html {
 }
 
 @media (prefers-color-scheme: dark) {
+
     /* Dark theme */
     html {
         --text-color: #fafafa;
@@ -33,8 +34,19 @@ hr {
 }
 
 a {
-    text-decoration: none;
+    background:
+        linear-gradient(to bottom, var(--accent-color) 0%,
+        var(--accent-color) 100%);
+    background-position: 0 100%;
+    background-size: 0px 0px;
+    background-repeat: repeat-x;
     color: var(--text-color);
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+a:hover {
+    background-size: 4px 100px;
 }
 
 .card {
