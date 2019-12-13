@@ -2,7 +2,7 @@
 
 # About Me
 
-This is a simple and clean webpage about me, Urmil Shroff. It showcases some of my work as a software developer, tells people a little something about myself and also provides links to my social media. If you're hiring, you can check out my [Résumé](Resume - Urmil Shroff.pdf).
+This is a simple and clean webpage about me, Urmil Shroff. It showcases some of my work as a software developer, tells people a little something about myself and also provides links to my social media. If you're hiring, you can check out my [Résumé](https://github.com/urmilshroff/urmilshroff.github.io/blob/master/Resume%20-%20Urmil%20Shroff.pdf).
 
 ## Contributing
 
