@@ -1,8 +1,8 @@
 html {
     --text-color: #263238;
-    --background-color: #263238;
     --card-color: #fafafa;
-    --accent-color: #ff6f00;
+    --accent-color: #ff3d00;
+    --background-color: #263238;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -10,8 +10,7 @@ html {
     /* Dark theme */
     html {
         --text-color: #fafafa;
-        --background-color: #263238;
-        --card-color: #263238;
+        --card-color: #37474f;
         --accent-color: #00e676;
     }
 }
@@ -54,7 +53,7 @@ a:hover {
     padding: 15px 30px 15px 30px;
     margin: 0 auto;
     background-color: var(--card-color);
-    border-radius: 3px;
+    border-radius: 7px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
 }
